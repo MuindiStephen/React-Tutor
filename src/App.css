@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  text-align: justify;
+  padding: 16px;
+  font-family:sans-serif-light;
+  cursor: pointer;
 }
 
 .App-logo {
