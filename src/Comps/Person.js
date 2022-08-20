@@ -2,7 +2,8 @@ import React from "react";
 
 //onclick button functionality
 class Person extends React.Component{
-    //parameterised constructor
+
+    //parameterised constructor that initialises the state of the Javascript
     constructor(props){
         super();
         this.state = {
@@ -13,7 +14,7 @@ class Person extends React.Component{
     }
 
     changeAge = () => {
-        this.setState({age:22})  //sets the age to a new value
+        this.setState({age:25})  //sets the age to a new value
     }
   
       render(){
